@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Элина Захарян](https://up.htmlacademy.ru/htmlcss/17/user/368785).
-* Наставник: `Неизвестно`.
+* Наставник: [Сергей Зубов](https://htmlacademy.ru/profile/serj).
 
 ---
 
