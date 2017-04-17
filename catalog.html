@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>HTML Academy: Нёрдс</title>
+	</head>
+	<body>
+		<header class="main-header">
+			<div class="container">
+				<a class="logo" href="#">
+					<img src="http://placehold.it/150x100" width="160" height="65" alt="Дизайн-студия Nerd's">
+				</a>
+				<nav class="main-navigation">
+					<ul>
+						<li>
+							<a href="#">Студия</a>
+						</li>
+						<li>
+							<a href="#">Клиенты</a>
+						</li>
+						<li>
+							<a href="#">Магазин</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+						<li class="shopping-cart">
+							<a href="#">Корзина</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main class="container">
+			<h1>Магазин готовых шаблонов</h1>
+			<div class="float-left">
+				<h3>Стоимость:</h3>
+				<form action="#" method="post">
+					<div class="price">
+						<div class="price-range">
+							<div class="price-range-line-grey"></div>
+							<div class="price-range-green-line"></div>
+							<div class="price-range-scroll-box-left"></div>
+							<div class="price-range-scroll-box-right"></div>
+						</div>
+						<div class="price-value">
+							<label>
+								<span>от</span>
+								<input type="text" name="from" value="">
+							</label>
+							<label>
+								<span>до</span>
+								<input type="text" name="to" value="">
+							</label>
+						</div>
+					</div>
+					<div class="layout">
+						<h3>Сетка:</h3>
+						<input type="radio" checked>Адаптивная
+						<br>
+						<input type="radio">Фиксированная
+						<br>
+						<input type="radio">Резиновая
+					</div>
+					<div class="features">
+						<h3>Особенности:</h3>
+						<input type="checkbox" checked id="slider">
+							<label for="slider">Слайдер</label>
+							<br>
+						<input type="checkbox" id="advantages">
+							<label for="advantages">Блок преимуществ</label>
+							<br>
+						<input type="checkbox" checked id="news">
+							<label for="new">Новости</label>
+							<br>
+						<input type="checkbox" id="gallery">
+							<label for="gallery">Галерея</label>
+							<br>
+						<input type="checkbox" id="cart">
+							<label for="cart">Корзина</label>
+							<br>
+						<button class="btn" type="submit">Показать</button>
+					</div>
+				</form>
+			</div>
+			<div class="float-right">
+				<div class="sort">
+					<h3>Сортировать</h3>
+					<div class="sort-parameter">
+						<a class="price" href="#">По цене</a>
+						<a class="type" href="#">По типу</a>
+						<a class="name" href="#">По названию</a>
+						<a class="descending" href="#"></a>
+						<a class="ascending" href="#"></a>
+					</div>
+				</div>
+				<ul class="items">
+					<li class="sedona">
+						<div class="points">
+							<div></div>
+							<div></div>
+							<div></div>
+						</div>
+						<img src="http://placehold.it/100x200">
+						<div class="hidden">
+							<h3>Sedona</h3>
+							<p>Информационный сайт для туристов</p>
+							<a class="price-btn" href="#">9 900  руб.</a>
+						</div>
+					</li>
+					<li class="pink">
+						<div class="points">
+							<div></div>
+							<div></div>
+							<div></div>
+						</div>
+						<img src="http://placehold.it/100x200">
+						<div class="hidden">
+							<h3>Pink App</h3>
+							<p>Продуктовый лендинг приложения для iOS и Android</p>
+							<a class="price-btn" href="#">9 900 руб.</a>
+						</div>
+					</li>
+					<li class="barbershop">
+						<div class="points">
+							<div></div>
+							<div></div>
+							<div></div>
+						</div>
+						<img src="http://placehold.it/100x200">
+						<div class="hidden">
+							<h3>Barbershop</h3>
+							<p>Сайт салоны красоты. Для мужчин, да.</p>
+							<a class="price-btn" href="#">9 900 руб.</a>
+						</div>
+					</li>
+					<li class="mishka">
+						<div class="points">
+							<div></div>
+							<div></div>
+							<div></div>
+						</div>
+						<img src="http://placehold.it/100x200">
+						<div class="hidden">
+							<h3>Mishka</h3>
+							<p>Интернет-магазин вязаных игрушек</p>
+							<a class="price-btn" href="#">9 900 руб.</a>
+						</div>
+					</li>
+					<li class="a-plus">
+						<div class="points">
+							<div></div>
+							<div></div>
+							<div></div>
+						</div>
+						<img src="http://placehold.it/100x200">
+						<div class="hidden">
+							<h3>A Plus</h3>
+							<p>Лендинг курсов повышения квалификации</p>
+							<a class="price-btn" href="#">9 900 руб.</a>
+						</div>
+					</li>
+					<li class="kvast">
+						<div class="points">
+							<div></div>
+							<div></div>
+							<div></div>
+						</div>
+						<img src="http://placehold.it/100x200">
+						<div class="hidden">
+							<h3>Кваст</h3>
+							<p>Промо-сайт производителя крафтового кваса</p>
+							<a class="price-btn" href="#">9 900 руб.</a>
+						</div>
+					</li>
+				</ul>
+				<ul class="pages" >
+					<li>
+						<a href="#">1</a>
+					</li>
+					<li>
+						<a href="#">2</a>
+					</li>
+					<li>
+						<a href="#">3</a>
+					</li>
+					<li>
+						<a href="#">Следующая</a>
+					</li>
+				</ul>
+			</div>
+		</main>
+		<footer class="main-footer">
+			<img src="http://placehold.it/300x70" alt="карта">					
+			<div class="footer-contacts">
+				<h3>Nёrds design studio</h3>
+				<p>191186, Санкт-Петербург, <br>
+				ул. Б. Конюшенная, д. 19/8</p>				
+				<p>тел. +7 (812) 275-75-75</p>
+				<a href="#">Напишите нам</a>
+			</div>
+			<div class="container">
+				<div class="modal-dialog">
+					<h2>Напишите нам</h2>
+					<form action="#" method="post">
+						<label>
+							Ваше имя: <input type="text" name="name" value="" placeholder="Представьтесь, пожалуйста">
+						</label>
+						<label>
+							Ваш e-mail: <input type="text" name="e-mail" value="" placeholder="Для отправки ответа">
+						</label>
+						<br>
+						<label>Текст письма:
+							<br>
+							<textarea name="message" placeholder="В свободной форме" rows="3" cols="70"></textarea>
+						</label>
+						<br>
+						<input type="submit" value="Отправить">	
+						<!-- В демо код кнопки такой: <button class="btn" type="submit">Отправить</button>	 -->				
+					</form>
+				</div>
+				<div class="footer-social-btn">
+					<a class="social-btn-vk" href="#">Вконтакте</a>
+					<a class="social-btn-fb" href="#">Фейсбук</a>
+					<a class="social-btn-inst" href="#">Инстаграм</a>
+				</div>
+				<div class="discount">
+					<b>Давайте дружить, это выгодно!</b>
+					<p> Скидка 10% для друзей из социальных сетей<./p>
+				</div>
+			</div>			
+		</footer>
+	</body>
+</html>
